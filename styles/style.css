@@ -40,7 +40,7 @@ div {
   margin-left: 64px;
   z-index: 2;
   width: 730px;
-  height: 96px;
+  line-height: 96px;
   font-size: 102px;
   font-weight: bolder;
 }
@@ -51,7 +51,7 @@ div {
   bottom: 30px;
   left: 64px;
   width: 388px;
-  height: 25px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
@@ -60,9 +60,11 @@ div {
   position: absolute;
   right: 0px;
   bottom: 0px;
+  z-index: 1;
   width: 765px;
   height: 608px;
-  z-index: 1;
+  background-image: url("../images/header-image.png");
+  background-size: cover;
 }
 
 .header__square-pic {
