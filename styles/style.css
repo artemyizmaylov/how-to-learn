@@ -1,5 +1,5 @@
-div {
-  border: solid red 1px;;
+section {
+  border: 1px solid red;
 }
 
 .page {
@@ -22,7 +22,6 @@ div {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  border: red solid 1px;
 }
 
 .logo {
@@ -58,6 +57,10 @@ div {
   font-weight: normal;
 }
 
+.header__link {
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   position: absolute;
   right: 0px;
@@ -67,7 +70,6 @@ div {
   height: 608px;
   background-image: url("../images/header-image.png");
   background-size: cover;
-  box-sizing: border-box;
 }
 
 .header__square-pic {
@@ -99,6 +101,7 @@ div {
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -124,6 +127,54 @@ div {
   line-height: 34px;
   font-size: 24px;
   font-weight: bolder;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.table__text {
+  margin 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
