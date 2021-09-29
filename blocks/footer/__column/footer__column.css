@@ -1,7 +1,6 @@
 .footer__column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-basis: 130px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 130px;
+}
