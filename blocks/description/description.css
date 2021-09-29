@@ -1,7 +1,6 @@
 .description {
-    margin: 100px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
