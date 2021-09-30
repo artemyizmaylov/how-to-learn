@@ -1,0 +1,9 @@
+.cards__item {
+    margin: 0;
+    width: 235px;
+    margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+    margin: 0;
+}

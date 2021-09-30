@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body>
   <div class="page">
     <header class="header">
@@ -16,7 +18,7 @@
         <a class="header__link link" href="#">Узнать &#8594;</a>
       </h2>
       <div class="header__main-illustration"></div>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -37,6 +39,42 @@
               Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </article>
+      </section>
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards table">
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="./images/cards-attention.png" alt="Книга">
+            <h3 class="cards__title table__heading">Два вида внимания</h3>
+            <p class="cards__description table__text">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="./images/cards-recall.png" alt="Статуя">
+            <h3 class="cards__title table__heading">Recall</h3>
+            <p class="cards__description table__text">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Площадь">
+            <h3 class="cards__title table__heading">Интерливинг</h3>
+            <p class="cards__description table__text">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="./images/cards-question.png" alt="Пустой двор">
+            <h3 class="cards__title table__heading">Вопросы</h3>
+            <p class="cards__description table__text">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </li>
+          <li class="cards__item table__cell">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Стопка книг">
+            <h3 class="cards__title table__heading">Иллюзия компетентности</h3>
+            <p class="cards__description table__text">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a class="feynman__link link" href="#">Подробнее &#8594;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -65,7 +103,7 @@
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих
               образования для трудоустройства</p>
             <p class="table__text">Всемирный Банк, 2017</p>
-            </li>
+          </li>
           <li class="table__cell">
             <h3 class="table__heading">17–20 лет</h3>
             <p class="table__text">Пик обучаемости</p>
@@ -79,11 +117,6 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </li>
         </ul>
-      </section>
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link link" href="#">Подробнее &#8594;</a>
       </section>
       <section class="kaufman">
         <div class="kaufman__triangle"></div>
@@ -124,7 +157,8 @@
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">10</h3>
@@ -150,11 +184,11 @@
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <div class="footer__column-links">
-            <a class="footer__social-icon footer__social-icon_img_fb" href="#"></a>
+            <a class="footer__social-icon link footer__social-icon_img_fb" href="#"></a>
             <a class="footer__column-link link link_theme_dark" href="#">Facebook</a>
-            <a class="footer__social-icon footer__social-icon_img_vk" href="#"></a>
+            <a class="footer__social-icon link footer__social-icon_img_vk" href="#"></a>
             <a class="footer__column-link link link_theme_dark" href="#">ВКонтакте</a>
-            <a class="footer__social-icon footer__social-icon_img_inst" href="#"></a>
+            <a class="footer__social-icon link footer__social-icon_img_inst" href="#"></a>
             <a class="footer__column-link link link_theme_dark" href="#">Instagram</a>
           </div>
         </div>
@@ -162,4 +196,5 @@
     </footer>
   </div>
 </body>
+
 </html>
